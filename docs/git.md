@@ -28,7 +28,7 @@ git config --global --add safe.directory <プロジェクトパス>
 ```
 
 - バックスラッシュ \ でも可ですが、Git はスラッシュ / が安定
-- クォートは 1重 " " で囲む
+- クォートは  " " で囲む
 
 ---
 
@@ -43,6 +43,7 @@ git config --global --add safe.directory <プロジェクトパス>
 ```bash
  git config --global --unset safe.directory <プロジェクトパス>
 ```
+- バックスラッシュ \等はエスケープされている可能性があることに注意
 ```bash
 git config --global --unset-all safe.directory
 ```
